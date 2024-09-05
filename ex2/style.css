@@ -114,6 +114,8 @@ img {
 
     .grid1>div.anuncio {
         grid-column: auto;
-        grid-row: auto; /* resetando os valores de grid*/
+        grid-row: auto;
+        /* resetando os valores de grid*/
+        order: -1; /* muda as ordens */ 
     }
 }
